@@ -1,15 +1,14 @@
 import React from 'react';
-
-let styles = 'height: 80px; background-color: transparent; border: 0;'
+import './styles.css';
 
 function linksTopBar() {
     return (
         <div id="linksTopBar">
-            <button styles={styles}>Home</button>
-            <button styles={styles}>About</button>
-            <button styles={styles}>Contact</button>
-            <button styles={styles}>Blog</button>
-            <button styles={styles}>Carrers</button>
+            <button className="topBarLink">Home</button>
+            <button className="topBarLink">About</button>
+            <button className="topBarLink">Contact</button>
+            <button className="topBarLink">Blog</button>
+            <button className="topBarLink">Carrers</button>
         </div>
     )
 }
