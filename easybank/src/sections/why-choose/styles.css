@@ -1,0 +1,23 @@
+.whyChoo{
+    margin-top: 10px;
+}
+
+.options{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 210px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+.optionWhy{
+width: 25%;
+}
+
+.tittleText{
+    padding-left: 210px;
+    padding-right: 38%;
+    margin-top: 30%;
+    text-align: left;
+}
