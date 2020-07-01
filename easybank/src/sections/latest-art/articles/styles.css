@@ -1,0 +1,16 @@
+.article{
+    width: 25%;
+    padding: 20px;
+}
+
+.image{
+    width: 260px;
+    height: 195px;
+    object-fit: cover;
+}
+
+.articleText{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}

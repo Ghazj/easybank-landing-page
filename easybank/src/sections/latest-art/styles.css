@@ -1,0 +1,8 @@
+.articles{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 210px;
+    padding-right: 265px;
+    text-align: left;
+}
