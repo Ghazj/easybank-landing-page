@@ -73,5 +73,6 @@ img:hover{
             text-align: center;
         }
         .col1{
+            width: auto;
         }
 }

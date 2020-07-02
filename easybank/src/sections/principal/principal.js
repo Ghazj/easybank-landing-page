@@ -9,7 +9,7 @@ function Principal() {
       <p className="principalText">Next generation<br />digital banking</p>
       <BaseText text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} />
       <RequestButton />
-      
+      <></>
     </div>
   );
 }

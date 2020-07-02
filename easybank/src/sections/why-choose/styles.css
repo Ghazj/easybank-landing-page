@@ -25,6 +25,14 @@ margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1255px){
+    .whyChoo{
+        font-weight: 400;
+        background-color:
+        hsl(220, 16%, 96%);
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 70px;
+    }
     .tittleText{
         padding-right: 0;
         text-align: center;

@@ -1,7 +1,7 @@
 .latestArt{
     background-color: hsl(0, 0%, 98%);
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 70px;
     margin-bottom: 50px;
 }
@@ -10,7 +10,7 @@
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    text-align: left;
+    text-align: center
 }
 
 .tittleTextArt{
@@ -25,6 +25,8 @@
 
 @media only screen and (max-width: 1255px){
     .latestArt{
+        padding-left: 5%;
+        padding-right: 5%;
         text-align: center;
     }
     .articles{

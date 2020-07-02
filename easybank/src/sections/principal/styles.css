@@ -22,10 +22,15 @@
         background-color:
         hsl(0, 0%, 98%);      
         position: relative;      
-        padding-left: 100px;       
-        padding-right: 100px;        
+        padding-left: 5%;       
+        padding-right: 5%;        
         padding-top: 500px;       
         text-align: center;      
-        height: 450px;
+        height: 300px;
+    }
+    .principalText{
+        margin-bottom: 30px;
+        color: #2d314d;
+        font-size: 40px;
     }
 }
