@@ -3,7 +3,23 @@
     border-radius: 20px;
     width: 150px;
     height: 40px;
-    background: rgb(49,211,92);
     background: linear-gradient(328deg, rgba(49,211,92,1) 25%, rgba(43,183,218,1) 75%);
     color: #ffffff;
+    font-weight: 400;
+}
+
+.arriba{
+    display: none;
+    background-color: #ffffffd0;
+    z-index: 2;
+}
+
+.requestButton:hover { 
+    background: linear-gradient(328deg, rgb(173, 173, 173) 25%, rgb(255, 255, 255) 75%);
+    color: black;
+}
+
+@keyframes hoverButton{
+    to{background: linear-gradient(328deg, rgb(173, 173, 173) 25%, rgb(255, 255, 255) 75%);
+        color: black;}
 }

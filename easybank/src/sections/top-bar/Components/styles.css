@@ -1,6 +1,19 @@
 .topBarLink{
+    position: relative;
     width: 70px;
     height: 80px;
     background-color: transparent;
     border: 0;
+}
+
+.topBarLink:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 8px;
+    background: linear-gradient(328deg, rgba(49,211,92,1) 25%, rgba(43,183,218,1) 75%);
+    border: 0;
+    z-index: 1;
 }

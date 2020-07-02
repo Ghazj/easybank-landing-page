@@ -5,16 +5,10 @@
     padding-right: 55%;
     padding-top: 10%;
     text-align: left;
-    z-index: -4;
     height: 500px;
 }
 
-.phones{
-    position: absolute;
-    left: 800px;
-    top: -115px;
-    z-index: 0;
-}
+
 
 .principalText{
     color: #2d314d;

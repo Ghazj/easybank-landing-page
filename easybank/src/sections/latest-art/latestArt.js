@@ -1,7 +1,5 @@
 import React from 'react';
 import './styles.css';
-import Tittle from '../../global-components/subtitles/subtitles.js';
-import BaseText from '../../global-components/base-text/baseText';
 import Articles from './articles/articles.js';
 import image1 from '../../assets/images/image-confetti.jpg';
 import image2 from '../../assets/images/image-currency.jpg';

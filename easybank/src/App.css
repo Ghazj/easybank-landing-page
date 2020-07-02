@@ -1,4 +1,11 @@
 .App {
+  position: relative;
   text-align: center;
-  z-index: -5;
+}
+
+.phones{
+  position: absolute;
+  left: 800px;
+  top: -115px;
+  z-index: 2;
 }

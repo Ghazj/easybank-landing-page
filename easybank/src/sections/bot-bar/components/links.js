@@ -4,14 +4,14 @@ function Links() {
     return (
         <>
             <div className="links">
-                <a href="" className="linka">About us</a>
-                <a href="" className="linka">Blog</a>
-                <a href="" className="linka">Contact</a>
+                <a className="linka">About us</a>
+                <a className="linka">Blog</a>
+                <a className="linka">Contact</a>
             </div>
             <div className="links">
-                <a href="" className="linka"> Carrers</a>
-                <a href="" className="linka"> Support</a>
-                <a href="" className="linka"> Privacy policy</a>
+                <a className="linka"> Carrers</a>
+                <a className="linka"> Support</a>
+                <a className="linka"> Privacy policy</a>
             </div>
         </>
     )
