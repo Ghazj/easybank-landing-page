@@ -16,9 +16,28 @@
 
 .optionWhy{
 width: 25%;
+margin-bottom: 30px;
 }
 
 .tittleText{
     padding-right: 38%;
     text-align: left;
+}
+
+@media only screen and (max-width: 1255px){
+    .tittleText{
+        padding-right: 0;
+        text-align: center;
+    }
+    .options{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .optionWhy{
+        width: 80%;
+        margin-bottom: 30px;
+        }
 }

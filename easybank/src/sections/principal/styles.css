@@ -3,8 +3,8 @@
     background-color:
     hsl(0, 0%, 98%);
     position: relative;
-    padding-left: 120px;
-    padding-right: 740px;
+    padding-left: 100px;
+    padding-right: 50%;
     padding-top: 10%;
     text-align: left;
     height: 500px;
@@ -14,4 +14,18 @@
     margin-bottom: 30px;
     color: #2d314d;
     font-size: 60px;
+}
+
+@media only screen and (max-width: 1255px){
+    .principal{
+        font-weight: 400;
+        background-color:
+        hsl(0, 0%, 98%);      
+        position: relative;      
+        padding-left: 100px;       
+        padding-right: 100px;        
+        padding-top: 500px;       
+        text-align: center;      
+        height: 450px;
+    }
 }

@@ -22,3 +22,19 @@
     font-weight: 400;
     margin: 0;
 }
+
+@media only screen and (max-width: 1255px){
+    .latestArt{
+        text-align: center;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .latestTittle{
+        text-align: center;
+    }
+}
