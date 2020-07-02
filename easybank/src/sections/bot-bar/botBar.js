@@ -17,7 +17,7 @@ function BotBar() {
             </div>
             <div className="col3">
                 <RequestButton />
-                <p className="copyright">Copyright</p>
+                <p className="copyright">c Easybank. All Rights Reserved</p>
             </div>
         </div>
     )

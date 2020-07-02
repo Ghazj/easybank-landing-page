@@ -6,6 +6,7 @@
     padding-top: 10%;
     text-align: left;
     z-index: -4;
+    height: 500px;
 }
 
 .phones{
@@ -13,4 +14,9 @@
     left: 800px;
     top: -115px;
     z-index: 0;
+}
+
+.principalText{
+    color: #2d314d;
+    font-size: 47px;
 }

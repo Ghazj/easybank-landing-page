@@ -7,7 +7,7 @@ function Option(props){
     return(
       <div className="optionWhy">
           <img alt="icon" src={props.iconUrl}/>
-          <Tittle className="tittleOptionsWhy" text={props.tittle}/>
+           <h3 className="tittleOptionsWhy">{props.tittle}</h3> 
           <BaseText className="baseTextOptionWhy" text={props.text}/>
       </div>  
     );

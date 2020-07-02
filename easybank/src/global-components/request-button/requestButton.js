@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.css';
 
-function RequestButton(props) {
+function RequestButton() {
     return (
-        <button>Request Invite</button>
+        <button className="requestButton">Request Invite</button>
     )
 };
 

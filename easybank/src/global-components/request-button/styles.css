@@ -1,0 +1,9 @@
+.requestButton{
+    border: 0;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background: rgb(49,211,92);
+    background: linear-gradient(328deg, rgba(49,211,92,1) 25%, rgba(43,183,218,1) 75%);
+    color: #ffffff;
+}

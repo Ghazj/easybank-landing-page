@@ -9,7 +9,7 @@ function Articles(props) {
             <img alt="image" src={props.imageUrl} className="image" />
             <div className="articleText">
                 <BaseText text={props.idText} />
-                <Tittle className="" text={props.tittle} />
+                <h3 className="tittleArt">{props.tittle}</h3>
                 <BaseText className="" text={props.text} />
             </div>
         </div>

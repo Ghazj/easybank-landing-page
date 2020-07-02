@@ -11,9 +11,8 @@ import image4 from '../../assets/images/image-restaurant.jpg';
 function LatestArt() {
     return (
         <div className="">
-            <div className="">
-                <Tittle text={'Latest Articles'} />
-                <BaseText text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} />
+            <div className="tittleTextArt">
+                <h2 className="">Latest Articles</h2>
             </div>
             <div className="articles">
                 <Articles imageUrl={image1} idText={'By nombre equis'} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Online Banking'} />

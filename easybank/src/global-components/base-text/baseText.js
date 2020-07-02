@@ -1,8 +1,9 @@
 import React from 'react';
+import './styles.css';
 
 function BaseText(props) {
     return (
-        <p>{props.text}</p>
+        <p className="baseText">{props.text}</p>
     )
 };
 
