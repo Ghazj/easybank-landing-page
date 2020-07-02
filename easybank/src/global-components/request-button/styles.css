@@ -5,7 +5,7 @@
     height: 40px;
     background: linear-gradient(328deg, rgba(49,211,92,1) 25%, rgba(43,183,218,1) 75%);
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .arriba{
@@ -14,7 +14,8 @@
     z-index: 2;
 }
 
-.requestButton:hover { 
+.requestButton:hover {
+    transition-duration: 0.5s; 
     background: linear-gradient(328deg, rgb(173, 173, 173) 25%, rgb(255, 255, 255) 75%);
     color: black;
 }

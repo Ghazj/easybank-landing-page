@@ -1,14 +1,24 @@
+.latestArt{
+    background-color: hsl(0, 0%, 98%);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
 .articles{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    padding-left: 210px;
-    padding-right: 265px;
     text-align: left;
 }
 
 .tittleTextArt{
     color: #2d314d;
     text-align: left;
-    padding-left: 210px;
+}
+
+.latestTittle{
+    font-weight: 400;
+    margin: 0;
 }

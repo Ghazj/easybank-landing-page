@@ -1,16 +1,17 @@
 .principal{
-    background-color: hsl(0, 0%, 98%);
+    font-weight: 400;
+    background-color:
+    hsl(0, 0%, 98%);
     position: relative;
-    padding-left: 210px;
-    padding-right: 55%;
+    padding-left: 120px;
+    padding-right: 740px;
     padding-top: 10%;
     text-align: left;
     height: 500px;
 }
 
-
-
 .principalText{
+    margin-bottom: 30px;
     color: #2d314d;
-    font-size: 47px;
+    font-size: 60px;
 }

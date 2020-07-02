@@ -1,13 +1,16 @@
 .whyChoo{
-    margin-top: 10px;
+    font-weight: 400;
+    background-color:
+    hsl(220, 16%, 96%);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
 }
 
 .options{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
-    padding-left: 210px;
-    padding-right: 100px;
     text-align: left;
 }
 
@@ -16,7 +19,6 @@ width: 25%;
 }
 
 .tittleText{
-    padding-left: 210px;
     padding-right: 38%;
     text-align: left;
 }

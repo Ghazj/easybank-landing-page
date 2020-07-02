@@ -4,7 +4,9 @@ import './logo.css'
 
 function Logo() {
     return (
-        <img alt="" src={logo} id='logo' />
+        <div className="logo">
+            <img alt="" src={logo} id='logo' />
+        </div>
     )
 };
 

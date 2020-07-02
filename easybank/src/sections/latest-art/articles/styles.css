@@ -16,5 +16,8 @@
 }
 
 .tittleArt{
+    font-weight: 400;
     color: #2d314d;
 }
+.tittleArt:hover
+{color:hsl(136, 65%, 51%)}

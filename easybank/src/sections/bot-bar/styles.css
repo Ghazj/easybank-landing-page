@@ -1,7 +1,7 @@
 #botBar{
-    height: 175px;
+    height: 200px;
     padding-left: 100px;
-    padding-right: 30px;
+    padding-right: 100px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -11,21 +11,39 @@
 }
 
 .col1{
-    width: 33.3%;
+    text-align: left;
+    width: 20%;
 }
 
 .col2{
     display: inline-flex;
     flex-direction: row;
-    width: 33.3%;
+    width: 400px;
 }
 
 .col3{
+    text-align: right;
     width: 33.3%;
 }
 
 .copyright{
+    font-size: 13px;
     color: hsl(233, 8%, 62%);
     margin-bottom: 0;
     margin-top: 40px;
+}
+
+.coder{
+    font-size: 13px;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+a:hover{
+    color: hsl(136, 65%, 51%);
+}
+
+img:hover{
+    color: red;
 }
