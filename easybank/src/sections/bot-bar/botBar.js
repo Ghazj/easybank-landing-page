@@ -18,7 +18,8 @@ function BotBar() {
             <div className="col3">
                 <RequestButton />
                 <p className="copyright">© Easybank. All Rights Reserved</p>
-                <p className="coder">Code by Jorgen Ghazi.</p>
+                <p className="coder">Challenge in <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN" target="_blank" rel="noopener noreferrer">frontendmentor.io</a></p>
+                <p className="coder">Done by <a href="https://www.linkedin.com/in/jorgen-ghazi/" target="_blank" rel="noopener noreferrer">Jorgen Ghazi</a>.</p>
             </div>
         </div>
     )

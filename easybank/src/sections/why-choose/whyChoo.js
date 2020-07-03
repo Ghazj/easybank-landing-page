@@ -17,9 +17,9 @@ function WhyChoo() {
             </div>
             <div className="options">
                 <Option iconUrl={icon1} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Online Banking'} />
-                <Option iconUrl={icon2} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Online Banking'} />
-                <Option iconUrl={icon3} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Online Banking'} />
-                <Option iconUrl={icon4} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Online Banking'} />
+                <Option iconUrl={icon2} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Simple Budgeting'} />
+                <Option iconUrl={icon3} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Fast Onboarding'} />
+                <Option iconUrl={icon4} text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sem ligula. Nam aliquam id libero vitae rutrum. Aenean sed'} tittle={'Open API'} />
             </div>
         </div>
     );

@@ -10,19 +10,19 @@ import "./social.css";
 function Socials(){
     return(
         <div className="socials">
-            <a href="www.facebook.com/user.php">
+            <a href="https://www.facebook.com/profile" target="_blank" rel="noopener noreferrer">
                 <img alt="" src={face}/>
             </a >
-            <a href="">
+            <a href="https://www.instagram.com/?hl=es-la" target="_blank" rel="noopener noreferrer">
                 <img alt="" src={insta}/>
             </a >
-            <a href="">
+            <a href="https://ar.pinterest.com/" target="_blank" rel="noopener noreferrer">
                 <img alt="" src={pint}/>
             </a >
-            <a href="">
+            <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer">
                 <img alt="" src={bird}/>
             </a >
-            <a href="">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                 <img alt="" src={you}/>
             </a >
         </div>
