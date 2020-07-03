@@ -52,10 +52,6 @@ a:hover{
     color: hsl(136, 65%, 51%);
 }
 
-img:hover{
-    color: red;
-}
-
 @media only screen and (max-width: 1255px){
     #botBar{
         display: flex;

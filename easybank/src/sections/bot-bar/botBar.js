@@ -19,7 +19,7 @@ function BotBar() {
                 <RequestButton />
                 <p className="copyright">© Easybank. All Rights Reserved</p>
                 <p className="coder">Challenge in <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN" target="_blank" rel="noopener noreferrer">frontendmentor.io</a></p>
-                <p className="coder">Done by <a href="https://www.linkedin.com/in/jorgen-ghazi/" target="_blank" rel="noopener noreferrer">Jorgen Ghazi</a>.</p>
+                <p className="coder">Made by <a href="https://www.linkedin.com/in/jorgen-ghazi/" target="_blank" rel="noopener noreferrer">Jorgen Ghazi</a>.</p>
             </div>
         </div>
     )
