@@ -1,16 +1,15 @@
-#logo{
+#logo {
     width: 210px;
     height: 35px;
-    background-color:
-    white;
+    background-color: white;
     border-radius: 30px;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 50%;
     background-color: white;
     border-radius: 50px;
 }

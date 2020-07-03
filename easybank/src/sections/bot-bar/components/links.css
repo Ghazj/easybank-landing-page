@@ -10,6 +10,16 @@
     margin-top: 10px;
 }
 
+.linka:link, .linka:visited {
+    color: hsl(233, 8%, 62%);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linka:hover {
+    color: hsl(136, 65%, 51%);
+}
+
 @media only screen and (max-width: 1255px){
     .links{
         margin:0;

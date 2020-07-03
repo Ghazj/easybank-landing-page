@@ -1,41 +1,43 @@
-.latestArt{
+.latestArt {
     background-color: hsl(0, 0%, 98%);
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 50px;
 }
 
-.articles{
+.articles {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     text-align: center
 }
 
-.tittleTextArt{
+.tittleTextArt {
     color: #2d314d;
     text-align: left;
 }
 
-.latestTittle{
+.latestTittle {
     font-weight: 400;
     margin-top: 55px;
 }
 
-@media only screen and (max-width: 1255px){
-    .latestArt{
+@media only screen and (max-width: 1255px) {
+    .latestArt {
+        background-color: hsl(0, 0%, 98%);
+        margin-bottom: 50px;
         padding-left: 5%;
         padding-right: 5%;
         text-align: center;
     }
-    .articles{
+    .articles {
+        margin-top: 50px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        text-align: center;
+        justify-content: space-evenly;
     }
-    .latestTittle{
+    .latestTittle {
         text-align: center;
     }
 }

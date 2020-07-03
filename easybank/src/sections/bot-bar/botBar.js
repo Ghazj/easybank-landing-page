@@ -18,11 +18,12 @@ function BotBar() {
             <div className="col3">
                 <RequestButton />
                 <p className="copyright">© Easybank. All Rights Reserved</p>
-                <p className="coder">Challenge in <a href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN" target="_blank" rel="noopener noreferrer">frontendmentor.io</a></p>
-                <p className="coder">Made by <a href="https://www.linkedin.com/in/jorgen-ghazi/" target="_blank" rel="noopener noreferrer">Jorgen Ghazi</a>.</p>
+                <p className="copyright">Challenge in <a className="coder" href="https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN" target="_blank" rel="noopener noreferrer">frontendmentor.io</a></p>
+                <p className="copyright">Made by <a className="coder" href="https://www.linkedin.com/in/jorgen-ghazi/" target="_blank" rel="noopener noreferrer">Jorgen Ghazi</a>.</p>
             </div>
         </div>
     )
 }
+
 
 export default BotBar;
