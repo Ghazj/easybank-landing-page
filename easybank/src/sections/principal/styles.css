@@ -1,0 +1,36 @@
+.principal{
+    font-weight: 400;
+    background-color:
+    hsl(0, 0%, 98%);
+    position: relative;
+    padding-left: 100px;
+    padding-right: 50%;
+    padding-top: 10%;
+    text-align: left;
+    height: 500px;
+}
+
+.principalText{
+    margin-bottom: 30px;
+    color: #2d314d;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 1255px){
+    .principal{
+        font-weight: 400;
+        background-color:
+        hsl(0, 0%, 98%);      
+        position: relative;      
+        padding-left: 5%;       
+        padding-right: 5%;        
+        padding-top: 320px;       
+        text-align: center;      
+        height: 300px;
+    }
+    .principalText{
+        margin-bottom: 30px;
+        color: #2d314d;
+        font-size: 40px;
+    }
+}

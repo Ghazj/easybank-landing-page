@@ -1,0 +1,19 @@
+.links{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.linka{
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1255px){
+    .links{
+        margin:0;
+        width: 200px;
+        text-align: center;
+    }
+}

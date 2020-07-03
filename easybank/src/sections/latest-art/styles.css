@@ -1,0 +1,42 @@
+.latestArt{
+    background-color: hsl(0, 0%, 98%);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+
+.articles{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center
+}
+
+.tittleTextArt{
+    color: #2d314d;
+    text-align: left;
+}
+
+.latestTittle{
+    font-weight: 400;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1255px){
+    .latestArt{
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    .articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .latestTittle{
+        text-align: center;
+    }
+}

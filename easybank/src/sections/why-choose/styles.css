@@ -1,0 +1,51 @@
+.whyChoo{
+    font-weight: 400;
+    background-color:
+    hsl(220, 16%, 96%);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+}
+
+.options{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.optionWhy{
+width: 25%;
+margin-bottom: 30px;
+}
+
+.tittleText{
+    padding-right: 38%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1255px){
+    .whyChoo{
+        font-weight: 400;
+        background-color:
+        hsl(220, 16%, 96%);
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 70px;
+    }
+    .tittleText{
+        padding-right: 0;
+        text-align: center;
+    }
+    .options{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .optionWhy{
+        width: 80%;
+        margin-bottom: 30px;
+        }
+}

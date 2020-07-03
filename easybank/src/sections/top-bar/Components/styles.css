@@ -1,0 +1,170 @@
+.topBarLink{
+    position: relative;
+    width: 70px;
+    height: 80px;
+    background-color: transparent;
+    border: 0;
+}
+
+.topBarLinkDesktop{
+    color: hsl(233, 26%, 24%); 
+    position: relative;
+    width: 70px;
+    height: 80px;
+    background-color: transparent;
+    border: 0;
+}
+
+.topBarLinksMobile{
+    text-align: center;
+    color: hsl(233, 26%, 24%); 
+    position: relative;
+    width: 70px;
+    height: 80px;
+    background-color: transparent;
+    border: 0;
+display: flex;
+flex-direction: column;
+animation: openLinks;
+}
+
+.topBarLinkDesktop:hover::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 8px;
+    background: linear-gradient(328deg, rgba(49,211,92,1) 25%, rgba(43,183,218,1) 75%);
+    border: 0;
+    z-index: 1;
+}
+
+
+
+.bg-modal{
+    display: none;
+    position: absolute;
+        top: 80px;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.151) 25%,rgba(255, 255, 255, 0.274)  75%);
+        background-color:
+        rgba(0, 0, 0, 0.623);
+        flex-direction: column;
+        align-items: center;
+}
+
+.modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        height: 60%;
+        background-color: hsl(0, 0%, 100%);
+        margin-top: 20px;
+        border-radius: 15px;
+        padding-top: 15%;
+}
+
+@keyframes openBgModal{
+    0%{
+        height: 0;
+    }   
+    100%{
+height: 100vh;
+    } 
+}
+.openBgModal{
+    animation: openBgModal 1s;
+}
+
+@keyframes openModal2{
+    0%{
+        height: 0%;
+        padding-top: 0%;
+    }   
+    100%{
+height: 60%;
+padding-top: 15%;
+    } 
+}
+.openModal2{
+    animation: openModal2 1s
+}
+
+@keyframes openLinks {
+    0%{
+        color: transparent ;
+    }
+    100%{
+        color: hsl(233, 26%, 24%);
+    }
+}
+.openLinks{
+    animation: openLinks 1s;
+}
+
+@keyframes closeBgModal{
+    0%{
+        height: 100vh;
+    }   
+    100%{
+        height: 0;
+    } 
+}
+.closeBgModal{
+animation: closeBgModal 1s;
+}
+
+@keyframes closeModal2{
+    0%{
+        height: 60%;
+        padding-top: 15%;
+    }   
+    100%{
+        height: 0%;
+        padding-top: 0%;
+    } 
+}
+.closeModal2{
+animation: closeModal2 1s;
+}
+
+@keyframes closeLinks {
+    0%{
+        color: hsl(233, 26%, 24%);
+    }
+    100%{
+        color: transparent ;
+    }
+}
+
+.closeLinks{
+    animation: closeLinks 0.5s;
+    color:transparent;
+}
+@media only screen and (max-width: 800px){
+    .topBarLinkDesktop{
+        display: none;
+    }
+    .topBarLinksMobile{
+        font-weight: 500;
+        position: relative;
+        width: 70px;
+        height: 80px;
+        background-color: transparent;
+        border: 0;
+    }
+    .topBarLinksMobile:hover::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 70px;
+        height: 8px;
+        background: linear-gradient(328deg, rgba(49,211,92,1) 25%, rgba(43,183,218,1) 75%);
+        border: 0;
+        z-index: 1;
+    }
+}

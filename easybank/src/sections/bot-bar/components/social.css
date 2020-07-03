@@ -1,0 +1,13 @@
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1255px){
+    .socials{
+        padding: 0;
+    }
+}
