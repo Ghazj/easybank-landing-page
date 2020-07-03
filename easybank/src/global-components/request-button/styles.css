@@ -24,3 +24,12 @@
     to{background: linear-gradient(328deg, rgb(173, 173, 173) 25%, rgb(255, 255, 255) 75%);
         color: black;}
 }
+
+#requestButtonTopBar{
+}   
+
+@media only screen and (max-width: 800px){
+    #requestButtonTopBar{
+        display: none;
+    }    
+}

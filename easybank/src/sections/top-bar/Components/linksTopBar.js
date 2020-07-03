@@ -1,14 +1,14 @@
 import React from 'react';
 import './styles.css';
 
-function linksTopBar() {
+function linksTopBar(props) {
     return (
-        <div id="linksTopBar">
-            <button className="topBarLink">Home</button>
-            <button className="topBarLink">About</button>
-            <button className="topBarLink">Contact</button>
-            <button className="topBarLink">Blog</button>
-            <button className="topBarLink">Carrers</button>
+        <div className={''}>
+            <button className={props.classs}>Home</button>
+            <button className={props.classs}>About</button>
+            <button className={props.classs}>Contact</button>
+            <button className={props.classs}>Blog</button>
+            <button className={props.classs}>Carrers</button>
         </div>
     )
 }

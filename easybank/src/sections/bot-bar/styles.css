@@ -63,13 +63,13 @@ img:hover{
         }
         .col3{
             text-align: center;
-            width: 200px;
+            width: 100%;
         }
         .col2{
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 600px;
+            width: 100%;
             text-align: center;
         }
         .col1{
